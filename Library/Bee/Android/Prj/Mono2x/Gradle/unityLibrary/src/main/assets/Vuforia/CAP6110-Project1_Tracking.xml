@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="salt" sideLength="0.130000"/>
+        <CylinderTarget name="Water" sideLength="0.030000"/>
+        <ImageTarget name="DiningCard" size="0.100000 0.061566"/>
+        <ImageTarget name="gow_disc" size="0.100000 0.127436"/>
+        <ImageTarget name="kodak.Front" size="0.110000 0.150024"/>
+        <ImageTarget name="kodak.Bottom" size="0.110000 0.076072"/>
+        <ImageTarget name="kodak.Left" size="0.076000 0.149882"/>
+        <ImageTarget name="kodak.Right" size="0.076000 0.149882"/>
+        <ImageTarget name="kodak.Back" size="0.110000 0.150024"/>
+        <ImageTarget name="kodak.Top" size="0.110000 0.076072"/>
+        <ImageTarget name="oats.Front" size="0.180000 0.399971"/>
+        <ImageTarget name="oats.Bottom" size="0.180000 0.050824"/>
+        <ImageTarget name="oats.Left" size="0.050800 0.399785"/>
+        <ImageTarget name="oats.Right" size="0.050800 0.399785"/>
+        <ImageTarget name="oats.Back" size="0.180000 0.399971"/>
+        <ImageTarget name="oats.Top" size="0.180000 0.050824"/>
+        <MultiTarget name="kodak">
+            <Part name="kodak.Left" translation="-0.054999999701976776 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="kodak.Right" translation="0.054999999701976776 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="kodak.Front" translation="0 0 0.03799999877810478" rotation="AD: 1 0 0 0"/>
+            <Part name="kodak.Back" translation="0 0 -0.03799999877810478" rotation="AD: 0 1 0 180"/>
+            <Part name="kodak.Top" translation="0 0.07500000298023224 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="kodak.Bottom" translation="0 -0.07500000298023224 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="oats">
+            <Part name="oats.Left" translation="-0.09000000357627869 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="oats.Right" translation="0.09000000357627869 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="oats.Front" translation="0 0 0.02539999969303608" rotation="AD: 1 0 0 0"/>
+            <Part name="oats.Back" translation="0 0 -0.02539999969303608" rotation="AD: 0 1 0 180"/>
+            <Part name="oats.Top" translation="0 0.20000000298023224 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="oats.Bottom" translation="0 -0.20000000298023224 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
